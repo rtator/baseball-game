@@ -16,7 +16,7 @@ let batter = game.createSprite(2, 3)
 let isplayerpitcher = true
 let catcher = game.createSprite(2, 4)
 let isballout = false
-let peopleonbase = 3
+let peopleonbase = 0
 basic.forever(function () {
     if (input.isGesture(Gesture.Shake) && isplayerpitcher) {
         if (input.buttonIsPressed(Button.A)) {
